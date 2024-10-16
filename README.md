@@ -63,6 +63,7 @@ javascript: (function() {
    ollama run hf.co/TheBloke/Llama-2-7B-Chat-GGUF:Q5_K_M
    ```
 4. Click OK to copy the modified command.
+5. Paste in terminal. It will pull and run the model in Ollama
 
 ## Note
 
