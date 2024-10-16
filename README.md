@@ -1,7 +1,6 @@
-# click-n-ollamarun
-Bookmarklet to run hugging face models in Ollama
 
-# Click-n-OllamaRun Bookmarklet
+
+# Click 'n' Ollama Run 
 
 ## Description
 
