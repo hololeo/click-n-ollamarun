@@ -4,7 +4,7 @@
 
 ## Description
 
-Click-n-OllamaRun is a handy bookmarklet that converts Hugging Face model URLs into Ollama run commands with a single click. It simplifies the process of running Hugging Face models locally using Ollama, saving you time and reducing the chance of errors in command construction.
+Click-n-OllamaRun is a handy bookmarklet that converts Hugging Face model URLs into Ollama run commands with a single click. It simplifies the process of running Hugging Face models locally using Ollama, saving you time and reducing the chance of errors in command construction. Inspired by https://huggingface.co/docs/hub/en/ollama
 
 ## Installation
 
