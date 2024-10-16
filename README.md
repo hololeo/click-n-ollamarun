@@ -64,6 +64,7 @@ javascript: (function() {
    ollama run hf.co/bartowski/MathCoder2-CodeLlama-7B-GGUF
    ```
 4. Click OK to copy the command.
+5. Paste the command into your terminal to run the model with Ollama.
 
 ### Example 2: Modifying Quantization
 
@@ -78,9 +79,7 @@ javascript: (function() {
 
 ## Note
 
-This bookmarklet works with both `huggingface.co` and `hf.co` URLs. Ensure you're on a valid Hugging Face model page when using it.
-
-For more information on using Hugging Face models with Ollama, visit: https://huggingface.co/docs/hub/en/ollama
+This bookmarklet works with both `huggingface.co` and `hf.co` URLs. Ensure you're on a valid Hugging Face model page when using it. For more information: https://huggingface.co/docs/hub/en/ollama
 
 ### NotebookLLm podcast on this readme
 
