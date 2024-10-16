@@ -79,3 +79,9 @@ javascript: (function() {
 This bookmarklet works with both `huggingface.co` and `hf.co` URLs. Ensure you're on a valid Hugging Face model page when using it.
 
 For more information on using Hugging Face models with Ollama, visit: https://huggingface.co/docs/hub/en/ollama
+
+### NotebookLLm podcast on this readme
+
+https://github.com/user-attachments/assets/6ede7d6e-acbb-48d7-9cab-63cf8883b23f
+
+
