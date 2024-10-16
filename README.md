@@ -15,6 +15,9 @@ Click-n-Ollama Run is a handy bookmarklet that converts Hugging Face model URLs 
 
 If this work has been helpful to you, you can support it for free by clicking ⭐ to star this repository!
 
+Also check out [Click 'n' Clone bookmarklet[https://github.com/hololeo/click-n-clone) to rapid clone a git repo
+
+
 ## Installation
 
 1. Create a new bookmark in your browser.
