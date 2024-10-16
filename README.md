@@ -1,2 +1,56 @@
 # click-n-ollamarun
 Bookmarklet for to run hugging face models in Ollama
+
+# Click-n-OllamaRun Bookmarklet
+
+## Description
+
+Click-n-OllamaRun is a handy bookmarklet that converts Hugging Face model URLs into Ollama run commands with a single click. It simplifies the process of running Hugging Face models locally using Ollama, saving you time and reducing the chance of errors in command construction.
+
+## Installation
+
+1. Create a new bookmark in your browser.
+2. Name the bookmark "Click-n-OllamaRun" (or any name you prefer).
+3. In the URL or location field of the bookmark, paste the following code:
+
+```javascript
+javascript:(function(){var url=window.location.href,match=url.match(/(?:https?:\/\/)?(?:www\.)?(?:huggingface\.co|hf\.co)\/([^\/]+)\/([^\/]+)/);if(match){var username=match[1],repository=match[2],newUrl=`ollama run hf.co/${username}/${repository}`,message='Here\'s your Ollama run command:\nDefaults to Q4_K_M\nAppend:{quantization} for different quantization\nCopy and paste in terminal to pull and run model\nsee https://huggingface.co/docs/hub/en/ollama\n\nYou can modify the command below:',userInput=prompt(message,newUrl);userInput!==null&&navigator.clipboard.writeText(userInput).then(function(){alert('Command copied to clipboard!')},function(){alert('Copying to clipboard failed. Please copy the command manually.')})}else alert('This bookmarklet only works on Hugging Face model pages.')})();
+```
+
+4. Save the bookmark.
+
+## Usage
+
+1. Navigate to a Hugging Face model page (e.g., https://huggingface.co/username/model-name).
+2. Click the "Click-n-OllamaRun" bookmark in your browser.
+3. A prompt will appear with the Ollama run command. You can modify it if needed.
+4. Click OK to copy the command to your clipboard.
+5. Paste the command into your terminal to run the model with Ollama.
+
+## Examples
+
+### Example 1: Basic Usage
+
+1. Visit: https://huggingface.co/bartowski/MathCoder2-CodeLlama-7B-GGUF
+2. Click the "Click-n-OllamaRun" bookmark.
+3. You'll see a prompt with:
+   ```
+   ollama run hf.co/bartowski/MathCoder2-CodeLlama-7B-GGUF
+   ```
+4. Click OK to copy the command.
+
+### Example 2: Modifying Quantization
+
+1. Visit: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
+2. Click the "Click-n-OllamaRun" bookmark.
+3. In the prompt, modify the command to specify a different quantization:
+   ```
+   ollama run hf.co/TheBloke/Llama-2-7B-Chat-GGUF:Q5_K_M
+   ```
+4. Click OK to copy the modified command.
+
+## Note
+
+This bookmarklet works with both `huggingface.co` and `hf.co` URLs. Ensure you're on a valid Hugging Face model page when using it.
+
+For more information on using Hugging Face models with Ollama, visit: https://huggingface.co/docs/hub/en/ollama
