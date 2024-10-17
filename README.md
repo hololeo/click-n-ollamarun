@@ -4,6 +4,8 @@
 
 <img src="https://github.com/user-attachments/assets/f6b2f246-7e76-4bfd-928a-84b3edc7cad6" width="150">
 
+If this work has been helpful to you, you can support it for free by clicking ⭐ to star this repository!
+
 ## Description
 
 Click-n-Ollama Run is a handy bookmarklet that converts Hugging Face model URLs into Ollama run commands with a single click. It simplifies the process of running Hugging Face models locally using Ollama, saving you time and reducing the chance of errors in command construction. Inspired by https://huggingface.co/docs/hub/en/ollama
@@ -11,7 +13,7 @@ Click-n-Ollama Run is a handy bookmarklet that converts Hugging Face model URLs 
 <img src="https://github.com/user-attachments/assets/adbe1024-0236-4d12-9e7f-b4574ca61cc1" width="300">
 
 
-If this work has been helpful to you, you can support it for free by clicking ⭐ to star this repository!
+
 
 Also check out Click 'n' Clone bookmarklet - rapidly clone a git repo!
 https://github.com/hololeo/click-n-clone
